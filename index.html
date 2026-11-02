@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie de produits</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    
+  <header class="topbar">
+    <a class="logo" href="#">Atelier<span>.</span></a>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activer le thème sombre">
+      <span id="theme-icon" aria-hidden="true">🌙</span>
+      <span id="theme-label">Mode sombre</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">SÉLECTION DU MOMENT</p>
+      <h1>Des objets qui<br><span>font la différence.</span></h1>
+      <p class="subtitle">Une sélection pensée pour embellir votre quotidien.</p>
+    </section>
+
+    <section class="product-grid" aria-label="Nos produits">
+      <article class="product-card">
+        <div class="product-image image-headphones">
+          <span class="badge">Populaire</span>
+          <img src="/ee98bdeb579b09d6939c30236b851d70.jpg" alt="" width="150px">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">AUDIO</p>
+            <h2>Casque Studio</h2>
+          </div>
+          <p class="price">80 FCFA</p>
+        </div>
+        <p class="description">Un son immersif et un confort conçu pour durer.</p>
+        <button class="product-button" type="button">Découvrir <span aria-hidden="true">→</span></button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image image-watch">
+          <img src="/montre.jpg" alt="" width="190px">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">ACCESSOIRES</p>
+            <h2>Montre Nova</h2>
+          </div>
+          <p class="price">37 FCFA</p>
+        </div>
+        <p class="description">Un design minimaliste pour vous accompagner partout.</p>
+        <button class="product-button" type="button">Découvrir <span aria-hidden="true">→</span></button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image image-speaker">
+          <span class="badge badge-new">Nouveau</span>
+          <img src="/7706ceac6c143de9a1692a2a2e24d339.jpg" alt="" width="190px">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">MAISON</p>
+            <h2>Enceinte Pulse</h2>
+          </div>
+          <p class="price">99 FCFA</p>
+        </div>
+        <p class="description">Un son puissant dans un format élégant et compact.</p>
+        <button class="product-button" type="button">Découvrir <span aria-hidden="true">→</span></button>
+      </article>
+    </section>
+  </main>
+
+  <footer>© 2025 Atelier — Une belle idée, chaque jour.</footer>
+</body>
+</html>
